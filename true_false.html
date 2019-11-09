@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Quiz</title>
+</head>
+<body>
+<h1>Quiz</h1>
+<h2><div id="question">
+  True or False: The sky is blue?"
+
+</div></h2>
+<button onclick="truee()">True</button>
+<button onclick="falsee()">False</button>
+<script  type="text/javascript">
+function truee(){
+document.getElementById("question").innerHTML="That is correct";
+document.getElementById("question").style.color="green";
+document.getElementById("question").style.textTransform="uppercase";
+}
+
+
+function falsee(){
+document.getElementById("question").innerHTML="That is not correct";
+document.getElementById("question").style.color="red";
+document.getElementById("question").style.textTransform="uppercase";
+}
+</script>
+</body>
+</html>
